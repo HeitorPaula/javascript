@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOTO</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+            background: rgb(98, 172, 233);
+        }
+        h1 {
+            background: greenyellow;
+        }
+        div {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Necessidade de Voto!</h1>
+    Coloque sua <strong>Idade</strong>: <input type="number" name="txti" id="txti">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var idade = window.document.querySelector('input#txti')
+            var res = window.document.getElementById('res')
+            var ida = Number(idade.value)
+            res.innerHTML = `Você tem <strong>${ida} anos</strong>!<br/>`
+            if (ida < 16) {
+                   res.innerHTML += '<p>Você não pode Votar!</p>' 
+            } else if (ida < 18 || ida > 65) {
+                    res.innerHTML += '<p>Você pode Votar opcionalmente!</p>'
+            } else {
+                    res.innerHTML += '<p>Você deve Votar obrigatóriamente!</p>'
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
