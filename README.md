@@ -11,4 +11,5 @@
 <a href="https://www.youtube.com/watch?v=TkD0QMyBa28&list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6&index=1"><img src="thumbnail-horadedcodar-m.png" align="right" alt="Thumbnail Curso JavaScript do Hora de Codar"></a>
 
 <p style="text-align:justify; padding-right:225px ">Estou fazendo o curso de JavaScript do Hora de Codar, criado pelo Mateus Battisti! Estou aprendendo e revendo muito conteúdo!</p>
+<p>Clique ao lado para ver o primeiro vídeo, o vídeo de introdução ao curso!</p>
 
